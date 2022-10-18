@@ -7,12 +7,21 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/halidaltuner/sx1302_hal
-PKG_SOURCE_VERSION:=4b42025d1751e04632c0b04160e0d29dbbb222a5
+PKG_NAME:=lora-sx1302-hal
+PKG_VERSION:=2.1.1
+PKG_RELEASE:=1
+
+PKG_SOURCE_URL:=https://codeload.github.com/halidaltuner/sx1302_hal/tar.gz/V$(PKG_VERSION)?
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_HASH:=5655a3c71facda879c30065b81c8da6651178c9eb624568b74256127e6f1ebda
+
+#PKG_SOURCE_PROTO:=git
+#PKG_SOURCE_URL:=https://github.com/xueliu/sx1302_hal
+#PKG_SOURCE_VERSION:=26d478c4d0539e965de4a9e759c28e74be35677b
 
 PKG_MAINTAINER:=Xue Liu <liuxuenetmail@gmail.com>
 PKG_LICENSE_FILES:=LICENSE
+#PKG_BUILD_DIR:=$(BUILD_DIR)/sx1302_hal-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
