@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=https://codeload.github.com/halidaltuner/sx1302_hal/tar.gz/V$(PKG_VERSION)?
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_HASH:=5655a3c71facda879c30065b81c8da6651178c9eb624568b74256127e6f1ebda
+PKG_HASH:=0c15a3e8ef33ceef026be2586223755c4c1122b9ec8479fdc443d438182c7163
 
 #PKG_SOURCE_PROTO:=git
 #PKG_SOURCE_URL:=https://github.com/xueliu/sx1302_hal
