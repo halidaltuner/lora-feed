@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=lora-sx1302-hal
-PKG_VERSION:=2.1.1
+PKG_VERSION:=2.0.1
 PKG_RELEASE:=1
 
 PKG_SOURCE_URL:=https://codeload.github.com/halidaltuner/sx1302_hal/tar.gz/V$(PKG_VERSION)?
